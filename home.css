@@ -89,7 +89,7 @@
 	border-radius: 26px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 	.vh {
 	  visibility: hidden;
 	  clear: both;
@@ -102,6 +102,59 @@
 	}
 	#exp{
 		padding: 3.2em;
+	}
+	.sinfo{
+		border-radius: 0;
+    box-shadow:none;
+    margin-top: 10px;
+    opacity: 1;
+    background-color: #fff;
+    mix-blend-mode: normal;
+    z-index: 5;
+	}
+	#work{
+		padding: 0em;
+	}
+	.ninfo{
+		border-radius: 0em;
+		font-size: small;
+		
+    box-shadow: none;
+	margin: 0em;
+	padding: 0;
+    opacity: 1;
+    background-color: #fff;
+    mix-blend-mode: normal;
+    z-index: 5;
+	align-content: center;
+	}
+	#hid{
+		visibility: hidden;
+	  clear: both;
+	  float: left;
+	  display: none;
+	}
+	#introw{
+		padding: 0;
+	}
+	#ulnav{
+		padding-left: 0;
+	}
+  }
+  @media only screen and (min-device-width: 481px) and (max-device-width: 800px) and (orientation:portrait) {
+	
+	.vh {
+	  visibility: hidden;
+	  clear: both;
+	  float: left;
+	  display: none;
+	}
+	.topinfo{
+        margin: 0;
+        padding: 0;
+	}
+	#exp{
+		padding: 6em;
 	}
 	.sinfo{
 		border-radius: 0;
