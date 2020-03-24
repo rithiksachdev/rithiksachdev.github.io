@@ -94,7 +94,7 @@
 	border-radius: 26px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 	.vh {
 	  visibility: hidden;
 	  clear: both;
@@ -139,66 +139,4 @@
 	#ulnav{
 		padding-left: 0;
 	}
-  }
-  @media (min-width: 400px) and (max-width: 900px) {
-	.vh {
-		visibility: hidden;
-		clear: both;
-		float: left;
-		display: none;
-	  }
-	  #hidwork{
-		  visibility: visible;
-		  display: block;
-		  text-align: center;
-		  padding-left: 1em;
-	  }
-	  #workid{
-		visibility: hidden;
-		clear: both;
-		float: left;
-		display: none;
-	  }
-	  .sinfo{
-		  border-radius: 0;
-	  box-shadow:none;
-	  margin-top: 10px;
-	  opacity: 1;
-	  background-color: #fff;
-	  mix-blend-mode: normal;
-	  z-index: 5;
-	  }
-	  #work{
-		  padding: 0em;
-		  visibility: hidden;
-		clear: both;
-		float: left;
-		display: none;
-		  
-	  }
-	  .ninfo{
-		  border-radius: 0em;
-		  font-size: small;
-		  
-	  box-shadow: none;
-	  margin: 0em;
-	  padding: 0;
-	  opacity: 1;
-	  background-color: #fff;
-	  mix-blend-mode: normal;
-	  z-index: 5;
-	  align-content: center;
-	  }
-	  #hid{
-		  visibility: hidden;
-		clear: both;
-		float: left;
-		display: none;
-	  }
-	  #introw{
-		  padding: 0;
-	  }
-	  #ulnav{
-		  padding-left: 0;
-	  }
   }
