@@ -242,3 +242,10 @@ ul {
     font-weight:600
   }
 }
+
+@media screen and (max-width: 600px) {
+    .topinfo{
+        margin: 0;
+        padding: 0;
+    }
+}

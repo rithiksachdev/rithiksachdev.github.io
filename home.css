@@ -96,6 +96,13 @@
 	  float: left;
 	  display: none;
 	}
+	.topinfo{
+        margin: 0;
+        padding: 0;
+	}
+	#exp{
+		padding: 3em;
+	}
 	.sinfo{
 		border-radius: 0;
     box-shadow:none;
