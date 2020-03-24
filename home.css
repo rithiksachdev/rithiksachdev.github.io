@@ -22,7 +22,8 @@
     background: rgba(43, 216, 216, 0.35);
     border-radius: 1em;
     box-shadow: 0 1px 5px rgba(64, 176, 190, 0.5);
-    margin-top: 10px;
+	margin: 1em;
+	padding: 1em;
     opacity: 1;
     background-color: #fff;
     mix-blend-mode: luminosity;
@@ -39,156 +40,55 @@
 
   .vh{
 	border-left: 2px solid rgb(59, 173, 147);
-	height: 260px;
+	height: 255px;
 	margin-left: .5em;
   }
-
-  .icon-button {
-	background-color: white;
-	border-radius: 2.6rem;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 1.3rem;
-	height: 2.6rem;
-	line-height: 2.6rem;
-	margin: 0 5px;
-	position: relative;
-	text-align: center;
-	-webkit-user-select: none;
-	   -moz-user-select: none;
-	    -ms-user-select: none;
-	        user-select: none;
-	width: 2.6rem;
-}
-
-/* Circle */
-.icon-button span {
-	border-radius: 0;
-	display: block;
-	height: 0;
-	left: 50%;
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	-webkit-transition: all 0.3s;
-	   -moz-transition: all 0.3s;
-	     -o-transition: all 0.3s;
-	        transition: all 0.3s;
-	width: 0;
-}
-.icon-button:hover span {
-	width: 2.6rem;
-	height: 2.6rem;
-	border-radius: 2.6rem;
-	margin: -1.3rem;
-}
-
-/* Icons */
-.icon-button i {
-	background: none;
-	height: 2.6rem;
-	left: 0;
-	line-height: 2.6rem;
-	position: absolute;
-	top: 0;
-	-webkit-transition: all 0.3s;
-	   -moz-transition: all 0.3s;
-	     -o-transition: all 0.3s;
-	        transition: all 0.3s;
-	width: 2.6rem;
-	z-index: 10;
-}
-
-
-
-
-
-.linkedin span {
-	background-color: #4099ff;
-}
-.facebook span {
-	background-color: #3B5998;
-}
-.google-plus span {
-	background-color: #db5a3c;
-}
-.tumblr span {
-	background-color: #34526f;
-}
-.youtube span {
-	background-color: #bb0000;
-}
-.instagram span {
-  background-color: #f09433;
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-}
-
-
-
-.icon-button .icon-linkedin {
-	color: #4099ff;
-}
-.icon-button .icon-facebook {
-	color: #3B5998;
-}
-.icon-button .fa-tumblr {
-	color: #34526f;
-}
-.icon-button .icon-google-plus {
-	color: #db5a3c;
-}
-.icon-button .fa-instagram {
-	color: #517fa4;
-}
-.icon-button .fa-youtube {
-	color: #bb0000;
-}
-.icon-button .fa-instagram {
-	color: #cb2027;
-}
-
-
-
-
-.icon-button:hover .icon-linkedin,
-.icon-button:hover .icon-facebook,
-.icon-button:hover .icon-google-plus,
-.icon-button:hover .fa-tumblr,
-.icon-button:hover .fa-instagram,
-.icon-button:hover .fa-youtube,
-.icon-button:hover .fa-instagram {
-	color: white;
-}
-
-@media all and (max-width: 680px) {
-  .icon-button {
-    border-radius: 1.6rem;
-    font-size: 0.8rem;
-    height: 1.6rem;
-    line-height: 1.6rem;
-    width: 1.6rem;
+  #work{
+	  padding-left: 3em;
   }
-
-  .icon-button:hover span {
-    width: 1.6rem;
-    height: 1.6rem;
-    border-radius: 1.6rem;
-    margin: -0.8rem;
+  #introw{
+	padding:1em;
   }
-
-  /* Icons */
-  .icon-button i {
-	  height: 1.6rem;
-	  line-height: 1.6rem;
-	  width: 1.6rem;
+  #ulnav{
+	  padding-left: 6em;
   }
-  .instagram {
-   display: none;
-  }
-
+  i, i:hover {
+	text-decoration: none;
 }
+#face{
+	color:black;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fab{
+	width: 40px;
+    height: 58px;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #000;
+	padding-top: 5px;
+	border-radius: 26px;
+	-moz-border-radius: 26px;
+	-webkit-border-radius: 26px;
+	-o-border-radius: 26px;
+}
+
+.socialbtns #face:hover{
+	color: #ffffff;
+	background-color: #000;
+	border: 1px solid #000;
+	border-radius: 26px;
+}
+
 @media screen and (max-width: 600px) {
 	.vh {
 	  visibility: hidden;
@@ -196,10 +96,42 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
 	  float: left;
 	  display: none;
 	}
+	.sinfo{
+		border-radius: 0;
+    box-shadow:none;
+    margin-top: 10px;
+    opacity: 1;
+    background-color: #fff;
+    mix-blend-mode: normal;
+    z-index: 5;
+	}
+	#work{
+		padding: 0em;
+	}
+	.ninfo{
+		border-radius: 0em;
+		font-size: small;
+		
+    box-shadow: none;
+	margin: 0em;
+	padding: 0;
+    opacity: 1;
+    background-color: #fff;
+    mix-blend-mode: normal;
+    z-index: 5;
+	align-content: center;
+	}
 	#hid{
 		visibility: hidden;
 	  clear: both;
 	  float: left;
 	  display: none;
 	}
+	#introw{
+		padding: 0;
+	}
+	#ulnav{
+		padding-left: 0;
+	}
   }
+

@@ -14,6 +14,15 @@
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery.slabtext.min.js"></script>
     <script type="text/javascript" src="all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
 </head>
@@ -30,9 +39,9 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto" style="padding-left: 6em; color: aliceblue;">
+                <ul class="navbar-nav mr-auto" id="ulnav" style="color: aliceblue;">
                     <li class="nav-item">
-                        <a class="nav-link" href="/" style="color: white; font-weight: 600;">HOME<span
+                        <a class="nav-link" href="#" style="color: white; font-weight: 600;">HOME<span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -43,7 +52,7 @@
                             style="color: white; font-weight: 600;">BLOGS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" style="color: white; font-weight: 600;">CONTACT</a>
+                        <a class="nav-link" href="contact.html" style="color: white; font-weight: 600;">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +65,7 @@
                     <br>
                     <br>
                     <br>
-                    <h1 style="text-align: center; margin-right: 5.5em;">
+                    <h1 id="about" style="text-align: center; margin-right: 5.5em;">
                         ABOUT
                     </h1>
                     <div class="row" style="margin-top: 2em;">
@@ -70,26 +79,30 @@
                             <h6>
                                 Under Graduate Student, Shri G. S. Institute of Technology & Science, Indore
                             </h6>
-                            <p>
-                                <strong>Connect with me</strong></p>
-                            <a href="#" class="icon-button linkedin"><i
-                                    class="icon-linkedin fab fa-linkedin-in"></i><span></span></a>
-                            <a href="#" class="icon-button facebook"><i
-                                    class="icon-facebook fab fa-facebook"></i><span></span></a>
-                            <a href="#" class="icon-button youtube"><i
-                                    class="icon-youtube fab fa-youtube"></i><span></span></a>
-                            <a href="#" class="icon-button instagram"><i
-                                    class="icon-instagram fab fa-instagram"></i><span></span></a>
+                            <strong>Connect with me</strong>
+                            <div class="socialbtns">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/rithik.sachdev"><i id="face"
+                                                style="font-size: xx-large;" class="fab fa-facebook"></i></a>
+                                    </li>
+                                    <li><a href="https://twitter.com/rithik_sachdev"><i id="face"
+                                                style="font-size: xx-large;" class="fab fa-lg fa-twitter"></i></a></li>
+                                    <li><a href="rithiksachdev3@gmail.com"><i id="face" style="font-size: xx-large;"
+                                                class="fab fa-lg fa-google-plus"></i></a></li>
+                                    <li><a href="https://github.com/rithiksachdev"><i id="face"
+                                                style="font-size: xx-large;" class="fab fa-lg fa-github"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-sm-8">
                             <p
-                                style="text-align: justify; font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;">
+                                style="text-align: justify; font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger;">
                                 I am an undergraduate engineering student in the computer science department at Shri
                                 Govindram Seksaria Institute of Technology and Science, Indore currently completing my
                                 third year
                                 of studies.
                                 I have been tinkering with code since my school days and have always found it quite
-                                intriguing.<br>
+                                intriguing.<br><br>
                                 I have also participated in some hackathons and successfully secured a runner's up
                                 position
                                 in one of them. I have a keen interest in open-source development, contributing my work
@@ -97,251 +110,254 @@
                                 some renowned hackathons and projects on Github.
                                 I also have a profound interest in evolutionary algorithms and am currently working
                                 under Prof. S. Balaji as a research fellow.
-
                             </p>
-                            <div class="row" style="margin-top: 1em;">
-                                <div class="col-md-5">
-                                    <h3>Interests</h3>
-                                    <ul class="ul-interests">
-
-                                        <li>Evolutionary Algorithms</li>
-
-                                        <li>Algorithms and Data Structures</li>
-
-                                        <li>Artificial Intelligence</li>
-
-                                        <li>Open Source Development</li>
-
-                                        <li>Machine Learning</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-7">
-                                    <h3>Education</h3>
-                                    <ul class="ul-edu fa-ul">
-                                        <li>
-                                            <i class="fa-li fas fa-user-graduate"></i>
-                                            <div class="description">
-                                                <p class="course">B.Tech. in Computer Science, 2021</p>
-                                                <p class="institution">SGSITS Indore</p>
-                                            </div>
-                                        </li>
-
-                                        <li>
-                                            <i class="fa-li fas fa-graduation-cap"></i>
-                                            <div class="description">
-                                                <p class="course">Secondary School, 2016</p>
-                                                <p class="institution">Delhi Public School, Indore</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="row" style="margin-bottom: 5em;">
-                        <div class="col col-md-5 col-xs-2">
-                            <strong style="font-size: x-large;">
-                                Work Experience and Projects
-                            </strong>
-                            <br>
-                            <div class="row justify-content-md-center " id="hid" style="margin-top: 1.8em;">
-                                <div class="col col-md-2">
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <div class="vh">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center" id="hid" style="margin-top: 2.4em;">
-                                <div class="col col-md-2">
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <div class="vh">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center" id="hid" style="margin-top: 2.4em;">
-                                <div class="col col-md-2">
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <div class="vh">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center" id="hid" style="margin-top: 2.8em;">
-                                <div class="col col-md-2">
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <div class="vh">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center" id="hid" style="margin-top: 3em;">
-                                <div class="col col-md-2">
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <div class="vh">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row justify-content-md-center" id="hid" style="margin-top: 3.5em;">
-                                <div class="col col-md-2">
-                                    <i class="fas fa-star-half-alt"></i>
-                                    <div class="vh">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-md-7 col-xs-5">
-                            <div class="top" style="margin-top: 4em;">
-                                <div class="ninfo" style="padding: 1em;">
-                                    <strong style="font-size: x-large;">
-                                        Full Stack Developer Intern
-                                    </strong>
-                                    <p
-                                        style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        Advanced Application Innovation our Way (<a
-                                            href="https://www.linkedin.com/company/aaiway/about/">AAIWay</a>)
-                                    </p>
-                                    <p
-                                        style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        November 2019 - April 2020 &middot; Indore
-                                    </p>
-                                    <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
-                                        <li>Created an Ultimate Web Scraper to scrape details of a person from Twitter,
-                                            Facebook and LinkedIn</li>
-                                        <li>Performed Sentiment analysis on the data collected using web scraping</li>
-                                        <li>Working on backend of the system using Node.js and MongoDB</li>
-                                        <li>Working on shipment of the software using Docker</li>
+                    <div class="row" id="introw">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <h3>Interests</h3>
+                            <ul class="ul-interests">
 
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="top" style="margin-top: 4em;">
-                                <div class="ninfo" style="padding: 1em;">
-                                    <strong style="font-size: x-large;">
-                                        Research Fellow
-                                    </strong>
-                                    <p
-                                        style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        Prof. S. Balaji, Applied Mathematics and Computational Science, SGSITS
-                                    </p>
-                                    <p
-                                        style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        January 2020 - Present &middot; Indore
-                                    </p>
-                                    <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
-                                        <li>I am working on evolutionary
-                                            algorithms for optimal deployment of sensors.</li>
-                                        <li>We are using black hole optimization algorithm for the research.</li>
-                                        <li>I will compare these results with the previous work done by Prof. S. Balaji.
-                                        </li>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="top" style="margin-top: 4em;">
-                                <div class="ninfo" style="padding: 1em;">
-                                    <strong style="font-size: x-large;">
-                                        Augmented Reality Dresssing Room Project
-                                    </strong>
-                                    <p
-                                        style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        24 Hour Hackathon - HackIndore2.0 Project Work
-                                    </p>
-                                    <p
-                                        style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        4-5 October &middot; Indore
-                                    </p>
-                                    <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
-                                        <li>The Project developed allows the user ,to some extent, to browse through
-                                            apparels and uses augmented reality to provide perspectives
-                                            from different angles and distances.
-                                        </li>
-                                        <li>For further development, the concept of various sizes of clothes, more
-                                            variety of clothes and 3D imaging to get a 360 degree view of clothes can be
-                                            implemented.
-                                        </li>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="top" style="margin-top: 4em;">
-                                <div class="ninfo" style="padding: 1em;">
-                                    <strong style="font-size: x-large;">
-                                        Votify
-                                    </strong>
-                                    <p
-                                        style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        Vote for India Website - Technical Project
-                                    </p>
-                                    <p
-                                        style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        May 2019 – December 2019 &middot; Indore
-                                    </p>
-                                    <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
-                                        <li>The website provides top 10 trending news, help citizen of India learn about
-                                            politics, collect data about the current interest of citizens.
-                                        </li>
-                                        <li>The website displays the previous election results in the form of a
-                                            geographical map with the election memorandum of parties to help people
-                                            make wise decisions and not under the influence of others.
-                                        </li>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="top" style="margin-top: 4em;">
-                                <div class="ninfo" style="padding: 1em;">
-                                    <strong style="font-size: x-large;">
-                                        Agile Training
-                                    </strong>
-                                    <p
-                                        style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        Sales Analysis Website - Scrum Project developed during the training
-                                    </p>
-                                    <p
-                                        style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        October 2019 &middot; Indore
-                                    </p>
-                                    <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
-                                        <li>
-                                            The website helps small and big business companies to analyze sales data
-                                            using graphical and pictorial representations.
-                                        </li>
-                                        <li>The project is created by a team of 7 people in one sprint using agile
-                                            Methodologies. I was assigned the role of front-end developer and scrum
-                                            master
-                                        </li>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="top" style="margin-top: 4em; margin-bottom: 5em;">
-                                <div class="ninfo" style="padding: 1em;">
-                                    <strong style="font-size: x-large;">
-                                        Android Training
-                                    </strong>
-                                    <p
-                                        style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        Member Directory Application - Android App developed during the training
-                                    </p>
-                                    <p
-                                        style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
-                                        May 2019 - June 2019 &middot; Indore
-                                    </p>
-                                    <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
-                                        <li>
-                                            Developed a Member Directory Application for the Students of the Institute
-                                            to help teachers share
-                                            timetables, study material, and other official notices. This Application was
-                                            built on Android Studio and
-                                            SQLite as a database.
-                                        </li>
-                                        <li>The app functionalities are Notification, Search, Night Mode, and
-                                            Information log to admin.
-                                        </li>
-                                    </p>
-                                </div>
-                            </div>
+                                <li>Evolutionary Algorithms</li>
+
+                                <li>Algorithms and Data Structures</li>
+
+                                <li>Artificial Intelligence</li>
+
+                                <li>Open Source Development</li>
+
+                                <li>Machine Learning</li>
+                            </ul>
                         </div>
 
-
+                        <div class="col-md-4">
+                            <h3>Education</h3>
+                            <ul class="ul-edu fa-ul">
+                                <li>
+                                    <i class="fa-li fas fa-user-graduate"></i>
+                                    <div class="description">
+                                        <div>B.Tech. in Computer Science, 2021</div>
+                                        <div>SGSITS Indore</div>
+                                    </div>
+                                </li>
+                                <br>
+                                <li>
+                                    <i class="fa-li fas fa-graduation-cap"></i>
+                                    <div class="description">
+                                        <div>Secondary School, 2016</div>
+                                        <div>Delhi Public School, Indore</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
+                <div class="row" style="margin-bottom: 5em;">
+                    <div class="col col-md-5 col-xs-2">
+                        <strong id="work" style=" text-align: center; font-size: x-large;">
+                            Work Experience and Projects
+                        </strong>
+                        <br>
+                        <div class="row justify-content-md-center " id="hid" style="margin-top: 1.8em;">
+                            <div class="col col-md-2">
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="vh">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center" id="hid" style="margin-top: 3em;">
+                            <div class="col col-md-2">
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="vh" style="height: 220px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center" id="hid" style="margin-top: 3em;">
+                            <div class="col col-md-2">
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="vh" style="height: 242px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center" id="hid" style="margin-top: 2.8em;">
+                            <div class="col col-md-2">
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="vh">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center" id="hid" style="margin-top: 3.4em;">
+                            <div class="col col-md-2">
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="vh">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-md-center" id="hid" style="margin-top: 3.5em;">
+                            <div class="col col-md-2">
+                                <i class="fas fa-star-half-alt"></i>
+                                <div class="vh">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-7 col-xs-5">
+                        <div class="top" style="margin-top: 4em;">
+                            <div class="ninfo">
+                                <strong style="font-size: x-large;">
+                                    Full Stack Developer Intern
+                                </strong>
+                                <p
+                                    style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    Advanced Application Innovation our Way (<a
+                                        href="https://www.linkedin.com/company/aaiway/about/">AAIWay</a>)
+                                </p>
+                                <p
+                                    style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    November 2019 - April 2020 &middot; Indore
+                                </p>
+                                <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
+                                    <li>Created an Ultimate Web Scraper to scrape details of a person from Twitter,
+                                        Facebook &emsp; and LinkedIn</li>
+                                    <li>Performed Sentiment analysis on the data collected using web scraping</li>
+                                    <li>Working on backend of the system using Node.js and MongoDB</li>
+                                    <li>Working on shipment of the software using Docker</li>
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="top" style="margin-top: 4em;">
+                            <div class="ninfo" style="padding: 1em;">
+                                <strong style="font-size: x-large;">
+                                    Research Fellow
+                                </strong>
+                                <p
+                                    style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    Prof. S. Balaji, Applied Mathematics and Computational Science, SGSITS
+                                </p>
+                                <p
+                                    style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    January 2020 - Present &middot; Indore
+                                </p>
+                                <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
+                                    <li>I am working on evolutionary
+                                        algorithms for optimal deployment of sensors.</li>
+                                    <li>We are using black hole optimization algorithm for the research.</li>
+                                    <li>I will compare these results with the previous work done by Prof. S. Balaji.
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="top" style="margin-top: 4em;">
+                            <div class="ninfo" style="padding: 1em;">
+                                <strong style="font-size: x-large;">
+                                    Augmented Reality Dresssing Room Project
+                                </strong>
+                                <p
+                                    style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    24 Hour Hackathon - HackIndore2.0 Project Work
+                                </p>
+                                <p
+                                    style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    4-5 October &middot; Indore
+                                </p>
+                                <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
+                                    <li>The Project developed allows the user ,to some extent, to browse through
+                                        apparels and uses augmented reality to provide perspectives
+                                        from different angles and distances.
+                                    </li>
+                                    <li>For further development, the concept of various sizes of clothes, more
+                                        variety of clothes and 3D imaging to get a 360 degree view of clothes can be
+                                        implemented.
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="top" style="margin-top: 4em;">
+                            <div class="ninfo" style="padding: 1em;">
+                                <strong style="font-size: x-large;">
+                                    Votify
+                                </strong>
+                                <p
+                                    style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    Vote for India Website - Technical Project
+                                </p>
+                                <p
+                                    style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    May 2019 – December 2019 &middot; Indore
+                                </p>
+                                <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
+                                    <li>The website provides top 10 trending news, help citizen of India learn about
+                                        politics, collect data about the current interest of citizens.
+                                    </li>
+                                    <li>The website displays the previous election results in the form of a
+                                        geographical map with the election memorandum of parties to help people
+                                        make wise decisions and not under the influence of others.
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="top" style="margin-top: 4em;">
+                            <div class="ninfo" style="padding: 1em;">
+                                <strong style="font-size: x-large;">
+                                    Agile Training
+                                </strong>
+                                <p
+                                    style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    Sales Analysis Website - Scrum Project developed during the training
+                                </p>
+                                <p
+                                    style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    October 2019 &middot; Indore
+                                </p>
+                                <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
+                                    <li>
+                                        The website helps small and big business companies to analyze sales data
+                                        using graphical and pictorial representations.
+                                    </li>
+                                    <li>The project is created by a team of 7 people in one sprint using agile
+                                        Methodologies. I was assigned the role of front-end developer and scrum
+                                        master
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="top" style="margin-top: 4em; margin-bottom: 5em;">
+                            <div class="ninfo" style="padding: 1em;">
+                                <strong style="font-size: x-large;">
+                                    Android Training
+                                </strong>
+                                <p
+                                    style="margin: 0; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    Member Directory Application - Android App developed during the training
+                                </p>
+                                <p
+                                    style="margin: 0; font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">
+                                    May 2019 - June 2019 &middot; Indore
+                                </p>
+                                <p style="font-family: 'Lato', sans-serif; margin-top: .5em;">
+                                    <li>
+                                        Developed a Member Directory Application for the Students of the Institute
+                                        to help teachers share
+                                        timetables, study material, and other official notices. This Application was
+                                        built on Android Studio and
+                                        SQLite as a database.
+                                    </li>
+                                    <li>The app functionalities are Notification, Search, Night Mode, and
+                                        Information log to admin.
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
             </div>
+        </div>
         </div>
     </section>
     <footer class="text-muted bg-dark" style="height: 5em;">
