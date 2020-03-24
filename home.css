@@ -140,7 +140,7 @@
 		padding-left: 0;
 	}
   }
-  @media (min-width: 400px) and (max-width: 767px) {
+  @media (min-width: 400px) and (max-width: 900px) {
 	.vh {
 		visibility: hidden;
 		clear: both;
