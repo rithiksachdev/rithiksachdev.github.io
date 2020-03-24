@@ -113,6 +113,11 @@
 	}
 	#work{
 		padding: 0em;
+		visibility: hidden;
+	  clear: both;
+	  float: left;
+	  display: none;
+
 	}
 	.ninfo{
 		border-radius: 0em;
