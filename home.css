@@ -95,7 +95,12 @@
 }
 
 @media screen and (max-width: 850px) {
-	
+	.vh{
+		visibility: hidden;
+	  clear: both;
+	  float: left;
+	  display: none;
+	}
 	.sinfo{
 		border-radius: 0;
     box-shadow:none;
@@ -107,11 +112,12 @@
 	}
 	#work{
 		padding: 0em;
+	}
+	#workid{
 		visibility: hidden;
 	  clear: both;
 	  float: left;
 	  display: none;
-
 	}
 	.ninfo{
 		border-radius: 0em;
