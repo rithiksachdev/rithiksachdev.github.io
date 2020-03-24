@@ -5,6 +5,7 @@
 	background: #000;
   text-align: center;
   color: #fff;
+  border-radius: 1em;
 }
 
 .company-info h3, .company-info ul{
@@ -15,6 +16,8 @@
 .contact{
   background: #262626;
   color: #fff;
+  border-radius: 1em;
+  margin-left: .5em;
 }
 
 /* FORM CONTACTS
