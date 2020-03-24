@@ -94,7 +94,7 @@
 	border-radius: 26px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	.vh {
 	  visibility: hidden;
 	  clear: both;
