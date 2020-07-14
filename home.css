@@ -1,4 +1,5 @@
 body,html{
+	background-color: unset;
 	background-color: transparent !important;
 }
 .sinfo{
