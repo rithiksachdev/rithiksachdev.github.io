@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Rithik Sachdev</title>
+    <link>https://rithiksachdev.github.io/project/</link>
+      <atom:link href="https://rithiksachdev.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Rithik Sachdev</copyright>
+    <image>
+      <url>https://rithiksachdev.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://rithiksachdev.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Covid19-Help-API</title>
+      <link>https://rithiksachdev.github.io/project/covid19-help-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/covid19-help-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DDoS Attack Detection using Machine Learning</title>
+      <link>https://rithiksachdev.github.io/project/ddos-attack-detection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/ddos-attack-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Member Directory Android Application</title>
+      <link>https://rithiksachdev.github.io/project/member-directory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/member-directory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real Time Flight Price Comparision</title>
+      <link>https://rithiksachdev.github.io/project/flyhigh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/flyhigh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sales Analysis Website</title>
+      <link>https://rithiksachdev.github.io/project/sales-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/sales-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Version Control</title>
+      <link>https://rithiksachdev.github.io/project/version-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/version-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtual Fitting Room</title>
+      <link>https://rithiksachdev.github.io/project/virtual-dressing-room/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/virtual-dressing-room/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Votify</title>
+      <link>https://rithiksachdev.github.io/project/votify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rithiksachdev.github.io/project/votify/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
