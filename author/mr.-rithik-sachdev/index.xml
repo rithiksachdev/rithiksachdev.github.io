@@ -5,7 +5,7 @@
     <link>https://rithiksachdev.github.io/author/mr.-rithik-sachdev/</link>
       <atom:link href="https://rithiksachdev.github.io/author/mr.-rithik-sachdev/index.xml" rel="self" type="application/rss+xml" />
     <description>Mr. Rithik Sachdev</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Rithik Sachdev</copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Rithik Sachdev</copyright><lastBuildDate>Tue, 30 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rithiksachdev.github.io/media/icon_huc9f808c58330c67c9cd2dc0b3cd6b5cb_558896_512x512_fill_lanczos_center_2.png</url>
       <title>Mr. Rithik Sachdev</title>
@@ -13,9 +13,9 @@
     </image>
     
     <item>
-      <title>Detection of DDoS Attacks using Machine Learning</title>
+      <title>Comparison of Supervised Learning Algorithms for DDOS Attack Detection</title>
       <link>https://rithiksachdev.github.io/publication/conference-paper/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://rithiksachdev.github.io/publication/conference-paper/</guid>
       <description></description>
     </item>
