@@ -1,138 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://rithiksachdev.github.io/talk/example-talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/publication-type/1/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/authors/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/publication/conference-paper/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/author/mr.-rithik-sachdev/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/author/mr.-shekhar-sharma/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/author/ms.-shreya-mishra/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/publication_types/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/publication/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/tag/source-themes/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/tags/</loc>
-    <lastmod>2022-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rithiksachdev.github.io/post/introduction-to-quantum-computing/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/post/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/covid19-help-api/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/ddos-attack-detection/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/member-directory/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/flyhigh/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/author/rithik-sachdev/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/sales-analysis/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/version-control/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/virtual-dressing-room/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://rithiksachdev.github.io/project/votify/</loc>
   </url>
-  
 </urlset>
